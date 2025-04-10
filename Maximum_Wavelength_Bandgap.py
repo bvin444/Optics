@@ -14,7 +14,7 @@ class Bandgap:
         self.main()
     
     def main(self):
-
+#
         self.window = self.create_main_window()
 
         while True:
