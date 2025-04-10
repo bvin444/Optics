@@ -1,5 +1,4 @@
-# This is code to evaluate the bandgap of a material and its absorption spectrum
-
+# Libraries to Import
 import PySimpleGUI as sg
 from typing import ClassVar
 from typing import Dict
@@ -14,7 +13,7 @@ class Bandgap:
         self.main()
     
     def main(self):
-#
+
         self.window = self.create_main_window()
 
         while True:
